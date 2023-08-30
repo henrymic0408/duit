@@ -78,7 +78,7 @@ class PartnerController extends Controller
         return view('partners.show', compact(
             'partner', 'transactions', 'year', 'incomeTotal', 'spendingTotal',
             'startDate', 'endDate', 'categories', 'editableTransaction',
-            'partners'
+            'partner'
         ));
     }
 
